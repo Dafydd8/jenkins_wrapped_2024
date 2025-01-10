@@ -103,9 +103,9 @@
       <h2>Resumen de reproducciones</h2>
       <p>Los Jenkins esucharon <span style="font-weight:bold; font-size:30px">{Math.floor(total_mins)}</span> minutos de música en el año</p>
       <p>El horario en que más escucharon fue a las {horasList[0][0]}hs, con {horasList[0][1]} reproducciones en ese horario en el año</p>
-      <img src="./public/images/repr_dia.png" alt="graf1" class="graf"/>
+      <img src="/images/repr_dia.png" alt="graf1" class="graf"/>
       <p>El mes en que más escucharon fue {nro_mes[mesesList[0][0]]}, con {mesesList[0][1]} reproducciones en ese mes</p>
-      <img src="./public/images/repr_mes.png" alt="graf2" class="graf"/>
+      <img src="/images/repr_mes.png" alt="graf2" class="graf"/>
     </div>
     <div class="container">
       <h2>Top 10 artistas</h2>
