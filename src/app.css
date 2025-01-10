@@ -1,0 +1,18 @@
+/* Estilos globales */
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url('../public/images/background.webp');
+    background-size:100%; /* Ajusta el tamaño del GIF para cubrir todo */
+    background-repeat: no-repeat; /* Evita que el GIF se repita */
+    background-position: top; /* Centra el GIF */
+    background-attachment: fixed;
+    overflow-x: hidden !important;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Black.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
